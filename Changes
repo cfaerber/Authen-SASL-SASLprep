@@ -1,0 +1,6 @@
+Revision history for Perl extension Authen::SASL::SASLprep
+
+1.00 Fri Dec 11 00:00:00 2009
+	- initial version, based on Net::IDN::Encode
+
+$Id$
