@@ -1,4 +1,4 @@
-# $Id$
+#!/usr/bin/perl
 
 use 5.006;
 
@@ -13,6 +13,8 @@ WriteMakefile(
 	'VERSION_FROM'	=> 'lib/Authen/SASL/SASLprep.pm', # finds $VERSION
 	'PREREQ_PM'	=> {
 		'Unicode::Stringprep'	=> 1.00,
+		'Test::More' => 0, 
+		'Test::NoWarnings' => 0,
 	    },
 	'AUTHOR'	=> 'Claus Faerber <CFAERBER@cpan.org>',
 	'LICENSE'	=> 'perl',
@@ -23,17 +25,9 @@ $ExtUtils::MakeMaker::VERSION < 6.18 ? () : (
 
 $ExtUtils::MakeMaker::VERSION < 6.45 ? () : (
 	'META_MERGE'	=> { 
-		'requires'	=> {
-			'perl'	=> 5.006,
-		    },
-
-		'recommends'	=> {
-			'perl'	=> 5.008003,
-		    },
-
-		'build_requires' => {
-			'Test::More' => 0, 
-			'Test::NoWarnings' => 0,
+		'resources' => {
+			'homepage' => 'http://search.cpan.org/dist/Authen-SASL-SASLprep',
+			'repository' => 'http://github.com/cfaerber/Authen-SASL-SASLprep',
 		    },
 	    },
     ),

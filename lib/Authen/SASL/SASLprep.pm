@@ -1,5 +1,3 @@
-# $Id$
-
 package Authen::SASL::SASLprep;
 
 use strict;

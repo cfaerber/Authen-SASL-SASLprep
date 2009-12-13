@@ -4,7 +4,6 @@ LICENSE
 Makefile.PL
 MANIFEST
 README
-SIGNATURE
 t/00use.t
 t/10pod.t
 t/11pod_cover.t
