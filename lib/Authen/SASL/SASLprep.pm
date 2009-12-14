@@ -5,7 +5,7 @@ use utf8;
 use warnings;
 require 5.006_000;
 
-our $VERSION = '1.00';
+our $VERSION = '1.01';
 $VERSION = eval $VERSION;
 
 require Exporter;
@@ -54,7 +54,7 @@ __END__
 
 =head1 NAME
 
-Authen::SASL::SASLprep - A Stringprep Profile for User Names and Passwords (RFC 4013)
+Authen::SASL::SASLprep - A Stringprep Profile for User Names and Passwords (RFC 4013)
 
 =head1 SYNOPSIS
 
@@ -91,7 +91,7 @@ Claus Färber <CFAERBER@cpan.org>
 
 =head1 LICENSE
 
-Copyright © 2009 Claus Färber. All rights reserved.
+Copyright © 2009 Claus Färber.
 
 This library is free software; you can redistribute it and/or modify it under
 the same terms as Perl itself.

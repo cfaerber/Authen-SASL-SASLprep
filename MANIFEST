@@ -1,6 +1,7 @@
 Changes
 lib/Authen/SASL/SASLprep.pm
 LICENSE
+Build.PL
 Makefile.PL
 MANIFEST
 README
@@ -8,3 +9,4 @@ t/00use.t
 t/10pod.t
 t/11pod_cover.t
 t/saslprep.t
+META.yml
