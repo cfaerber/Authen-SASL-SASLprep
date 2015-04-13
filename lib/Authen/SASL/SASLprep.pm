@@ -5,7 +5,7 @@ use utf8;
 use warnings;
 require 5.006_000;
 
-our $VERSION = '1.01';
+our $VERSION = '1.011';
 $VERSION = eval $VERSION;
 
 require Exporter;
@@ -91,7 +91,7 @@ Claus Färber <CFAERBER@cpan.org>
 
 =head1 LICENSE
 
-Copyright © 2009 Claus Färber.
+Copyright 2009-2015 Claus Färber.
 
 This library is free software; you can redistribute it and/or modify it under
 the same terms as Perl itself.

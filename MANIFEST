@@ -10,3 +10,4 @@ t/10pod.t
 t/11pod_cover.t
 t/saslprep.t
 META.yml
+META.json
